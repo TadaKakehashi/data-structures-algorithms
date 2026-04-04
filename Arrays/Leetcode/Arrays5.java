@@ -24,7 +24,6 @@ public class Arrays5 {
         String magazine = "aab";
 
         boolean result = obj.canConstruct(ransomNote, magazine);
-
         System.out.println("Can construct: " + result);
     }
 }
