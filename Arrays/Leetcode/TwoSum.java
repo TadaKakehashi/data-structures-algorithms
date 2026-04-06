@@ -22,7 +22,7 @@ public class TwoSum {
             if(map.containsKey(complement)){
                 return new int[]{map.get(complement),i};
             }
-            map.put(arr[i], arr[i]);
+            map.put(arr[i], i);
         }
         return new int[]{-1,-1};
     }
@@ -31,5 +31,7 @@ public class TwoSum {
         int[] arr = {2,11,7,15};
         int target = 9;
         System.out.println(Arrays.toString(twoSum_MethodOne(arr,target)));
+
+        System.out.println(Arrays.toString(twoSum_MethodTwo(arr, target)));
     }
 }
