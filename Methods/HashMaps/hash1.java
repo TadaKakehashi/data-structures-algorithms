@@ -18,7 +18,6 @@ public class hash1 {
         }
 
         System.out.println();
-
         HashSet<Integer> set = new HashSet<Integer>();
         set.add(10);
         set.add(20);
